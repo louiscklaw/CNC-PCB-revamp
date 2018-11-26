@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -13,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L taobao-components:arduino_nano_v3 U?
-U 1 1 5BFECF58
-P 5850 3600
-AR Path="/5BFEAB84/5BFECF58" Ref="U?"  Part="1" 
-AR Path="/5BFECFEE/5BFECF58" Ref="U?"  Part="1" 
-F 0 "U?" H 5850 4515 50  0000 C CNN
-F 1 "arduino_nano_v3" H 5850 4424 50  0000 C CNN
-F 2 "" H 5850 3600 50  0001 C CNN
-F 3 "" H 5850 3600 50  0001 C CNN
-	1    5850 3600
-	1    0    0    -1  
-$EndComp
 Text GLabel 4500 2950 0    50   Input ~ 0
 Grbl_Tx
 Text GLabel 4500 3050 0    50   Input ~ 0
@@ -79,10 +66,10 @@ Wire Wire Line
 Wire Wire Line
 	4500 4350 5050 4350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 5BFF107B
 P 4000 3400
-F 0 "#PWR?" H 4000 3150 50  0001 C CNN
+F 0 "#PWR0105" H 4000 3150 50  0001 C CNN
 F 1 "GND" H 4005 3227 50  0000 C CNN
 F 2 "" H 4000 3400 50  0001 C CNN
 F 3 "" H 4000 3400 50  0001 C CNN
@@ -110,10 +97,10 @@ Hold
 Text GLabel 7350 4050 2    50   Input ~ 0
 Grbl_Reset
 $Comp
-L tinkerforge:+5V #PWR?
+L tinkerforge:+5V #PWR0106
 U 1 1 5BFF1342
 P 7350 2900
-F 0 "#PWR?" H 7350 2750 50  0001 C CNN
+F 0 "#PWR0106" H 7350 2750 50  0001 C CNN
 F 1 "+5V" H 7365 3073 50  0000 C CNN
 F 2 "" H 7350 2900 50  0000 C CNN
 F 3 "" H 7350 2900 50  0000 C CNN
@@ -140,4 +127,19 @@ Wire Wire Line
 	6650 3950 7350 3950
 Wire Wire Line
 	6650 4050 7350 4050
+$Comp
+L taobao-components:arduino_nano_v3 U1
+U 1 1 5C020F9B
+P 5850 3600
+F 0 "U1" H 5850 4515 50  0000 C CNN
+F 1 "arduino_nano_v3" H 5850 4424 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 5750 2400 50  0001 C CNN
+F 3 "" H 5850 3600 50  0001 C CNN
+	1    5850 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 4350 2    50   Input ~ 0
+Spindle_Dir
+Wire Wire Line
+	6650 4350 7350 4350
 $EndSCHEMATC
