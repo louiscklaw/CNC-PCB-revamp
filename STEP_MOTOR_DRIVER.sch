@@ -106,7 +106,7 @@ U 1 1 5C0008F6
 P 7750 1650
 F 0 "J5" H 7830 1642 50  0000 L CNN
 F 1 "Conn_01x04" H 7830 1551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7750 1650 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 7750 1650 50  0001 C CNN
 F 3 "~" H 7750 1650 50  0001 C CNN
 	1    7750 1650
 	1    0    0    -1  
@@ -259,7 +259,7 @@ U 1 1 5C002156
 P 7750 3600
 F 0 "J6" H 7830 3592 50  0000 L CNN
 F 1 "Conn_01x04" H 7830 3501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7750 3600 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 7750 3600 50  0001 C CNN
 F 3 "~" H 7750 3600 50  0001 C CNN
 	1    7750 3600
 	1    0    0    -1  
@@ -415,7 +415,7 @@ U 1 1 5C004096
 P 7750 5450
 F 0 "J7" H 7830 5442 50  0000 L CNN
 F 1 "Conn_01x04" H 7830 5351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7750 5450 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 7750 5450 50  0001 C CNN
 F 3 "~" H 7750 5450 50  0001 C CNN
 	1    7750 5450
 	1    0    0    -1  

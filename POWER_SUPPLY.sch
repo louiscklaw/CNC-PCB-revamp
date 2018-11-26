@@ -6927,4 +6927,214 @@ Text GLabel 3700 4050 2    50   Input ~ 0
 Spindle_Dir
 Wire Wire Line
 	3700 4050 3300 4050
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5C030BBA
+P 9600 850
+F 0 "J11" H 9700 850 50  0000 C CNN
+F 1 "Conn_01x02" H 9900 750 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 9600 850 50  0001 C CNN
+F 3 "~" H 9600 850 50  0001 C CNN
+	1    9600 850 
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10100 850  2    50   Input ~ 0
+X_Limit
+Text GLabel 10100 1200 2    50   Input ~ 0
+Y_Limit
+Text GLabel 10100 1500 2    50   Input ~ 0
+Z_Limit
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5C0318FB
+P 9600 1200
+F 0 "J12" H 9680 1192 50  0000 L CNN
+F 1 "Conn_01x02" H 9680 1101 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 9600 1200 50  0001 C CNN
+F 3 "~" H 9600 1200 50  0001 C CNN
+	1    9600 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5C031931
+P 9600 1500
+F 0 "J13" H 9680 1492 50  0000 L CNN
+F 1 "Conn_01x02" H 9680 1401 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 9600 1500 50  0001 C CNN
+F 3 "~" H 9600 1500 50  0001 C CNN
+	1    9600 1500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 850  10100 850 
+Wire Wire Line
+	9800 1200 10100 1200
+Wire Wire Line
+	9800 1500 10100 1500
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5C03426F
+P 9600 4200
+F 0 "J14" H 9680 4192 50  0000 L CNN
+F 1 "Conn_01x02" H 9680 4101 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 9600 4200 50  0001 C CNN
+F 3 "~" H 9600 4200 50  0001 C CNN
+	1    9600 4200
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10100 4200 2    50   Input ~ 0
+Probe
+Wire Wire Line
+	9800 4200 10100 4200
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 5C0359F8
+P 9600 4500
+F 0 "J15" H 9680 4492 50  0000 L CNN
+F 1 "Conn_01x02" H 9680 4401 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 9600 4500 50  0001 C CNN
+F 3 "~" H 9600 4500 50  0001 C CNN
+	1    9600 4500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10100 4500 2    50   Input ~ 0
+Start
+Wire Wire Line
+	9800 4500 10100 4500
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 5C03E431
+P 9600 4800
+F 0 "J16" H 9680 4792 50  0000 L CNN
+F 1 "Conn_01x02" H 9680 4701 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 9600 4800 50  0001 C CNN
+F 3 "~" H 9600 4800 50  0001 C CNN
+	1    9600 4800
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10100 4800 2    50   Input ~ 0
+Hold
+Wire Wire Line
+	9800 4800 10100 4800
+$Comp
+L power:GND #PWR0129
+U 1 1 5C03F42E
+P 9950 5150
+F 0 "#PWR0129" H 9950 4900 50  0001 C CNN
+F 1 "GND" H 9955 4977 50  0000 C CNN
+F 2 "" H 9950 5150 50  0001 C CNN
+F 3 "" H 9950 5150 50  0001 C CNN
+	1    9950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 950  9950 950 
+Wire Wire Line
+	9950 950  9950 1300
+Wire Wire Line
+	9800 1300 9950 1300
+Connection ~ 9950 1300
+Wire Wire Line
+	9950 1300 9950 1600
+Wire Wire Line
+	9950 1600 9800 1600
+Wire Wire Line
+	9800 4300 9950 4300
+Wire Wire Line
+	9950 4300 9950 4600
+Wire Wire Line
+	9950 4600 9800 4600
+Connection ~ 9950 4600
+Wire Wire Line
+	9950 4600 9950 4900
+Wire Wire Line
+	9800 4900 9950 4900
+Connection ~ 9950 4900
+Wire Wire Line
+	9950 4900 9950 5150
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 5C0541C9
+P 9550 2350
+F 0 "J17" H 9650 2350 50  0000 C CNN
+F 1 "Conn_01x02" H 9850 2250 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 9550 2350 50  0001 C CNN
+F 3 "~" H 9550 2350 50  0001 C CNN
+	1    9550 2350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10050 2350 2    50   Input ~ 0
+X_Limit
+Text GLabel 10050 2700 2    50   Input ~ 0
+Y_Limit
+Text GLabel 10050 3000 2    50   Input ~ 0
+Z_Limit
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 5C0541D2
+P 9550 2700
+F 0 "J18" H 9630 2692 50  0000 L CNN
+F 1 "Conn_01x02" H 9630 2601 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 9550 2700 50  0001 C CNN
+F 3 "~" H 9550 2700 50  0001 C CNN
+	1    9550 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 5C0541D8
+P 9550 3000
+F 0 "J19" H 9630 2992 50  0000 L CNN
+F 1 "Conn_01x02" H 9630 2901 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 9550 3000 50  0001 C CNN
+F 3 "~" H 9550 3000 50  0001 C CNN
+	1    9550 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2350 10050 2350
+Wire Wire Line
+	9750 2700 10050 2700
+Wire Wire Line
+	9750 3000 10050 3000
+Wire Wire Line
+	9750 2450 9900 2450
+Wire Wire Line
+	9900 2450 9900 2800
+Wire Wire Line
+	9750 2800 9900 2800
+Connection ~ 9900 2800
+Wire Wire Line
+	9900 2800 9900 3100
+Wire Wire Line
+	9900 3100 9750 3100
+$Comp
+L power:GND #PWR0130
+U 1 1 5C055B77
+P 9950 1850
+F 0 "#PWR0130" H 9950 1600 50  0001 C CNN
+F 1 "GND" H 9955 1677 50  0000 C CNN
+F 2 "" H 9950 1850 50  0001 C CNN
+F 3 "" H 9950 1850 50  0001 C CNN
+	1    9950 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1600 9950 1850
+Connection ~ 9950 1600
+$Comp
+L power:GND #PWR0131
+U 1 1 5C0573EE
+P 9900 3350
+F 0 "#PWR0131" H 9900 3100 50  0001 C CNN
+F 1 "GND" H 9905 3177 50  0000 C CNN
+F 2 "" H 9900 3350 50  0001 C CNN
+F 3 "" H 9900 3350 50  0001 C CNN
+	1    9900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3100 9900 3350
+Connection ~ 9900 3100
 $EndSCHEMATC
