@@ -1,4 +1,28 @@
-Cmp-Mod V01 Created by PcbNew   date = Monday, November 26, 2018 PM11:38:13 HKT
+Cmp-Mod V01 Created by PcbNew   date = Tuesday, November 27, 2018 AM12:00:16 HKT
+
+BeginCmp
+TimeStamp = 5C5D2DDC
+Path = /5BFF1764/5C0541D8
+Reference = J19;
+ValeurCmp = Z_LIMIT2;
+IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C5D2DB2
+Path = /5BFF1764/5C0541D2
+Reference = J18;
+ValeurCmp = Y_LIMIT2;
+IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C5D2D88
+Path = /5BFF1764/5C0541C9
+Reference = J17;
+ValeurCmp = X_LIMIT2;
+IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
+EndCmp
 
 BeginCmp
 TimeStamp = 5C5C935A
@@ -28,7 +52,7 @@ BeginCmp
 TimeStamp = 5C5CB223
 Path = /5BFF1764/5C030BBA
 Reference = J11;
-ValeurCmp = Conn_01x02;
+ValeurCmp = X_LIMIT1;
 IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
 EndCmp
 
@@ -36,7 +60,7 @@ BeginCmp
 TimeStamp = 5C5CB1F9
 Path = /5BFF1764/5C0318FB
 Reference = J12;
-ValeurCmp = Conn_01x02;
+ValeurCmp = Y_LIMIT1;
 IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
 EndCmp
 
@@ -44,7 +68,7 @@ BeginCmp
 TimeStamp = 5C5CB1CF
 Path = /5BFF1764/5C03E431
 Reference = J16;
-ValeurCmp = Conn_01x02;
+ValeurCmp = HOLD;
 IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
 EndCmp
 
@@ -52,7 +76,7 @@ BeginCmp
 TimeStamp = 5C5CB1A5
 Path = /5BFF1764/5C0359F8
 Reference = J15;
-ValeurCmp = Conn_01x02;
+ValeurCmp = START;
 IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
 EndCmp
 
@@ -60,7 +84,7 @@ BeginCmp
 TimeStamp = 5C5CB17B
 Path = /5BFF1764/5C03426F
 Reference = J14;
-ValeurCmp = Conn_01x02;
+ValeurCmp = PROBE;
 IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
 EndCmp
 
@@ -68,7 +92,7 @@ BeginCmp
 TimeStamp = 5C5CB151
 Path = /5BFF1764/5C031931
 Reference = J13;
-ValeurCmp = Conn_01x02;
+ValeurCmp = Z_LIMIT1;
 IdModule  = Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal;
 EndCmp
 
@@ -84,7 +108,7 @@ BeginCmp
 TimeStamp = 5C5C93C3
 Path = /5BFF1764/5BFF8AAE
 Reference = J8;
-ValeurCmp = Conn_01x05;
+ValeurCmp = MOTOR;
 IdModule  = Connector_JST:JST_XH_S05B-XH-A-1_1x05_P2.50mm_Horizontal;
 EndCmp
 
