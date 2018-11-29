@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~68~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -55,8 +55,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 5.4 5.4)
+    (pad_drill 2.7)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -1044,7 +1044,7 @@
   )
 
   (module Connector_BarrelJack:BarrelJack_Horizontal (layer F.Cu) (tedit 5A1DBF6A) (tstamp 5C5C93E6)
-    (at 190.37 69.61 180)
+    (at 181.5 62.5 180)
     (descr "DC Barrel Jack")
     (tags "Power Jack")
     (path /5BFF1764/5BFF19AA)
@@ -1805,7 +1805,7 @@
   )
 
   (module MountingHole:MountingHole_2.7mm_M2.5_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C5C91BA)
-    (at 24.61 29.73)
+    (at 25 30)
     (descr "Mounting Hole 2.7mm, M2.5")
     (tags "mounting hole 2.7mm m2.5")
     (path /5BFF1764/5BFF4125)
@@ -1826,7 +1826,7 @@
   )
 
   (module MountingHole:MountingHole_2.7mm_M2.5_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C5C91B2)
-    (at 173.25 24.66)
+    (at 200 30)
     (descr "Mounting Hole 2.7mm, M2.5")
     (tags "mounting hole 2.7mm m2.5")
     (path /5BFF1764/5BFF40FF)
@@ -1847,7 +1847,7 @@
   )
 
   (module MountingHole:MountingHole_2.7mm_M2.5_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C5C91AA)
-    (at 24.08 133.77)
+    (at 25 70)
     (descr "Mounting Hole 2.7mm, M2.5")
     (tags "mounting hole 2.7mm m2.5")
     (path /5BFF1764/5BFF40E1)
@@ -1868,7 +1868,7 @@
   )
 
   (module MountingHole:MountingHole_2.7mm_M2.5_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C5C91A2)
-    (at 205.34 136.14)
+    (at 200 70)
     (descr "Mounting Hole 2.7mm, M2.5")
     (tags "mounting hole 2.7mm m2.5")
     (path /5BFF1764/5BFF4033)

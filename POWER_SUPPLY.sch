@@ -25,17 +25,6 @@ F 3 "~" H 3700 1760 50  0001 C CNN
 	1    3650 1800
 	1    0    0    -1  
 $EndComp
-$Comp
-L taobao-components:+VMot #PWR0122
-U 1 1 5BFF3CE7
-P 4200 1450
-F 0 "#PWR0122" H 4200 1300 50  0001 C CNN
-F 1 "+VMot" H 4215 1623 50  0000 C CNN
-F 2 "" H 4200 1450 50  0000 C CNN
-F 3 "" H 4200 1450 50  0000 C CNN
-	1    4200 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 1450 4200 1700
 Wire Wire Line
@@ -7138,4 +7127,15 @@ Wire Wire Line
 Connection ~ 9900 3100
 Wire Wire Line
 	3950 1900 4200 1900
+$Comp
+L power:+24V #PWR?
+U 1 1 5C008C1F
+P 4200 1450
+F 0 "#PWR?" H 4200 1300 50  0001 C CNN
+F 1 "+24V" H 4250 1650 50  0000 C CNN
+F 2 "" H 4200 1450 50  0001 C CNN
+F 3 "" H 4200 1450 50  0001 C CNN
+	1    4200 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
