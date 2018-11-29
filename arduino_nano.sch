@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:CNC-PCB-revamp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -97,7 +98,7 @@ Hold
 Text GLabel 7350 4050 2    50   Input ~ 0
 Grbl_Reset
 $Comp
-L tinkerforge:+5V #PWR0106
+L power:+5V #PWR0106
 U 1 1 5BFF1342
 P 7350 2900
 F 0 "#PWR0106" H 7350 2750 50  0001 C CNN

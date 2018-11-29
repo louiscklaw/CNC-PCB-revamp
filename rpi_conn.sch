@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:CNC-PCB-revamp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -40,7 +41,7 @@ F 3 "~" V 7850 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L tinkerforge:+5V #PWR0102
+L power:+5V #PWR0102
 U 1 1 5BFF052E
 P 7850 1850
 F 0 "#PWR0102" H 7850 1700 50  0001 C CNN

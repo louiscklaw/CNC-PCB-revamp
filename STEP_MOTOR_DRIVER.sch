@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:CNC-PCB-revamp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -29,7 +30,7 @@ F 3 "~" H 4050 1550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L tinkerforge:+5V #PWR0107
+L power:+5V #PWR0107
 U 1 1 5C000023
 P 3650 1250
 F 0 "#PWR0107" H 3650 1100 50  0001 C CNN
@@ -71,7 +72,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 1950 5050 1950
 $Comp
-L tinkerforge:+5V #PWR0108
+L power:+5V #PWR0108
 U 1 1 5C00043D
 P 7050 1100
 F 0 "#PWR0108" H 7050 950 50  0001 C CNN
@@ -182,7 +183,7 @@ F 3 "~" H 4050 3500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L tinkerforge:+5V #PWR0112
+L power:+5V #PWR0112
 U 1 1 5C002130
 P 3650 3200
 F 0 "#PWR0112" H 3650 3050 50  0001 C CNN
@@ -224,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 3900 5050 3900
 $Comp
-L tinkerforge:+5V #PWR0113
+L power:+5V #PWR0113
 U 1 1 5C002146
 P 7050 3050
 F 0 "#PWR0113" H 7050 2900 50  0001 C CNN
@@ -338,7 +339,7 @@ F 3 "~" H 4050 5350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L tinkerforge:+5V #PWR0117
+L power:+5V #PWR0117
 U 1 1 5C004070
 P 3650 5050
 F 0 "#PWR0117" H 3650 4900 50  0001 C CNN
@@ -380,7 +381,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 5750 5050 5750
 $Comp
-L tinkerforge:+5V #PWR0118
+L power:+5V #PWR0118
 U 1 1 5C004086
 P 7050 4900
 F 0 "#PWR0118" H 7050 4750 50  0001 C CNN

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:CNC-PCB-revamp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -248,7 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 2500 8050 2500
 $Comp
-L tinkerforge:+5V #PWR0126
+L power:+5V #PWR0126
 U 1 1 5BFF6CCC
 P 8600 1650
 F 0 "#PWR0126" H 8600 1500 50  0001 C CNN
@@ -281,7 +282,7 @@ $EndComp
 Wire Wire Line
 	3700 4250 3300 4250
 $Comp
-L tinkerforge:+5V #PWR0127
+L power:+5V #PWR0127
 U 1 1 5BFFB401
 P 4250 4150
 F 0 "#PWR0127" H 4250 4000 50  0001 C CNN
