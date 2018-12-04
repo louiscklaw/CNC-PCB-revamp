@@ -1723,7 +1723,7 @@ F 3 "~" H 2350 4210 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 3900 2850 4150
+	2850 3900 2850 4100
 Wire Wire Line
 	2850 4150 2600 4150
 $Comp
@@ -1741,7 +1741,7 @@ F 3 "" H 2850 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 4350 2850 4600
+	2850 4350 2850 4400
 Wire Wire Line
 	2600 4350 2850 4350
 $Comp
@@ -1772,4 +1772,33 @@ F 3 "" H 4600 3500 50  0001 C CNN
 	1    4600 3500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C070F19
+P 3300 4200
+F 0 "J?" H 3400 4200 50  0000 L CNN
+F 1 "Conn_01x02" H 3400 4100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3300 4200 50  0001 C CNN
+F 3 "~" H 3300 4200 50  0001 C CNN
+	1    3300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4100 3000 4100
+Wire Wire Line
+	3000 4100 3000 4200
+Wire Wire Line
+	3000 4200 3100 4200
+Connection ~ 2850 4100
+Wire Wire Line
+	2850 4100 2850 4150
+Wire Wire Line
+	2850 4400 3000 4400
+Wire Wire Line
+	3000 4400 3000 4300
+Wire Wire Line
+	3000 4300 3100 4300
+Connection ~ 2850 4400
+Wire Wire Line
+	2850 4400 2850 4600
 $EndSCHEMATC
