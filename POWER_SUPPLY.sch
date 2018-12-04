@@ -17,234 +17,89 @@ $EndDescr
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5BFF4033
-P 6650 4300
+P 5800 7100
 AR Path="/5BFF1764/5BFF4033" Ref="H1"  Part="1" 
 AR Path="/5C064586/5BFF4033" Ref="H?"  Part="1" 
-F 0 "H1" V 6750 4351 50  0000 L CNN
-F 1 "MountingHole_Pad" V 6750 4260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 6650 4300 50  0001 C CNN
-F 3 "~" H 6650 4300 50  0001 C CNN
-	1    6650 4300
+F 0 "H1" V 5900 7151 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5900 7060 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 5800 7100 50  0001 C CNN
+F 3 "~" H 5800 7100 50  0001 C CNN
+	1    5800 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5BFF40E1
-P 6950 4300
+P 6100 7100
 AR Path="/5BFF1764/5BFF40E1" Ref="H2"  Part="1" 
 AR Path="/5C064586/5BFF40E1" Ref="H?"  Part="1" 
-F 0 "H2" V 7050 4351 50  0000 L CNN
-F 1 "MountingHole_Pad" V 7050 4260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 6950 4300 50  0001 C CNN
-F 3 "~" H 6950 4300 50  0001 C CNN
-	1    6950 4300
+F 0 "H2" V 6200 7151 50  0000 L CNN
+F 1 "MountingHole_Pad" V 6200 7060 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 6100 7100 50  0001 C CNN
+F 3 "~" H 6100 7100 50  0001 C CNN
+	1    6100 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5BFF40FF
-P 7250 4300
+P 6400 7100
 AR Path="/5BFF1764/5BFF40FF" Ref="H3"  Part="1" 
 AR Path="/5C064586/5BFF40FF" Ref="H?"  Part="1" 
-F 0 "H3" V 7350 4351 50  0000 L CNN
-F 1 "MountingHole_Pad" V 7350 4260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 7250 4300 50  0001 C CNN
-F 3 "~" H 7250 4300 50  0001 C CNN
-	1    7250 4300
+F 0 "H3" V 6500 7151 50  0000 L CNN
+F 1 "MountingHole_Pad" V 6500 7060 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 6400 7100 50  0001 C CNN
+F 3 "~" H 6400 7100 50  0001 C CNN
+	1    6400 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5BFF4125
-P 7500 4300
+P 6650 7100
 AR Path="/5BFF1764/5BFF4125" Ref="H4"  Part="1" 
 AR Path="/5C064586/5BFF4125" Ref="H?"  Part="1" 
-F 0 "H4" V 7600 4351 50  0000 L CNN
-F 1 "MountingHole_Pad" V 7600 4260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 7500 4300 50  0001 C CNN
-F 3 "~" H 7500 4300 50  0001 C CNN
-	1    7500 4300
+F 0 "H4" V 6750 7151 50  0000 L CNN
+F 1 "MountingHole_Pad" V 6750 7060 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 6650 7100 50  0001 C CNN
+F 3 "~" H 6650 7100 50  0001 C CNN
+	1    6650 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0124
 U 1 1 5BFF421C
-P 7100 4600
+P 6250 7400
 AR Path="/5BFF1764/5BFF421C" Ref="#PWR0124"  Part="1" 
 AR Path="/5C064586/5BFF421C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0124" H 7100 4350 50  0001 C CNN
-F 1 "GND" H 7105 4427 50  0000 C CNN
-F 2 "" H 7100 4600 50  0001 C CNN
-F 3 "" H 7100 4600 50  0001 C CNN
-	1    7100 4600
+F 0 "#PWR0124" H 6250 7150 50  0001 C CNN
+F 1 "GND" H 6255 7227 50  0000 C CNN
+F 2 "" H 6250 7400 50  0001 C CNN
+F 3 "" H 6250 7400 50  0001 C CNN
+	1    6250 7400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 4400 6650 4450
+	5800 7200 5800 7250
 Wire Wire Line
-	6650 4450 6950 4450
+	5800 7250 6100 7250
 Wire Wire Line
-	7500 4450 7500 4400
+	6650 7250 6650 7200
 Wire Wire Line
-	6950 4400 6950 4450
-Connection ~ 6950 4450
+	6100 7200 6100 7250
+Connection ~ 6100 7250
 Wire Wire Line
-	6950 4450 7100 4450
+	6100 7250 6250 7250
 Wire Wire Line
-	7250 4400 7250 4450
-Connection ~ 7250 4450
+	6400 7200 6400 7250
+Connection ~ 6400 7250
 Wire Wire Line
-	7250 4450 7500 4450
+	6400 7250 6650 7250
 Wire Wire Line
-	7100 4600 7100 4450
-Connection ~ 7100 4450
+	6250 7400 6250 7250
+Connection ~ 6250 7250
 Wire Wire Line
-	7100 4450 7250 4450
-$Comp
-L Connector_Generic:Conn_02x12_Odd_Even J10
-U 1 1 5BFF4535
-P 7150 1900
-AR Path="/5BFF1764/5BFF4535" Ref="J10"  Part="1" 
-AR Path="/5C064586/5BFF4535" Ref="J?"  Part="1" 
-F 0 "J10" H 7200 2617 50  0000 C CNN
-F 1 "Conn_02x12_Odd_Even" H 7200 2526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 7150 1900 50  0001 C CNN
-F 3 "~" H 7150 1900 50  0001 C CNN
-	1    7150 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 5BFF45EC
-P 6600 2800
-AR Path="/5BFF1764/5BFF45EC" Ref="#PWR0125"  Part="1" 
-AR Path="/5C064586/5BFF45EC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0125" H 6600 2550 50  0001 C CNN
-F 1 "GND" H 6605 2627 50  0000 C CNN
-F 2 "" H 6600 2800 50  0001 C CNN
-F 3 "" H 6600 2800 50  0001 C CNN
-	1    6600 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 2800 6600 2500
-Wire Wire Line
-	6600 1400 6950 1400
-Wire Wire Line
-	6950 1500 6600 1500
-Connection ~ 6600 1500
-Wire Wire Line
-	6600 1500 6600 1400
-Wire Wire Line
-	6950 1600 6600 1600
-Wire Wire Line
-	6950 1700 6600 1700
-Wire Wire Line
-	6950 1900 6600 1900
-Wire Wire Line
-	6950 2000 6600 2000
-Wire Wire Line
-	6950 2100 6600 2100
-Wire Wire Line
-	6950 2300 6600 2300
-Wire Wire Line
-	6950 2400 6600 2400
-Wire Wire Line
-	6950 2500 6600 2500
-Connection ~ 6600 1600
-Wire Wire Line
-	6600 1600 6600 1500
-Connection ~ 6600 1700
-Wire Wire Line
-	6600 1700 6600 1600
-Connection ~ 6600 1900
-Connection ~ 6600 2000
-Wire Wire Line
-	6600 2000 6600 1900
-Connection ~ 6600 2100
-Wire Wire Line
-	6600 2100 6600 2000
-Connection ~ 6600 2300
-Connection ~ 6600 2400
-Wire Wire Line
-	6600 2400 6600 2300
-Connection ~ 6600 2500
-Wire Wire Line
-	6600 2500 6600 2400
-Wire Wire Line
-	6600 1700 6600 1900
-Wire Wire Line
-	6600 2100 6600 2300
-Text GLabel 6250 1800 0    50   Input ~ 0
-A6
-Text GLabel 6250 2200 0    50   Input ~ 0
-A7
-Wire Wire Line
-	6250 1800 6950 1800
-Wire Wire Line
-	6250 2200 6950 2200
-Text GLabel 8050 1400 2    50   Input ~ 0
-X_Limit
-Text GLabel 8050 1500 2    50   Input ~ 0
-Y_Limit
-Text GLabel 8050 1600 2    50   Input ~ 0
-Z_Limit
-Text GLabel 8050 1700 2    50   Input ~ 0
-Probe
-Text GLabel 8050 1900 2    50   Input ~ 0
-Start
-Text GLabel 8050 2000 2    50   Input ~ 0
-Hold
-Text GLabel 8050 2100 2    50   Input ~ 0
-Grbl_Reset
-Text GLabel 8050 2300 2    50   Input ~ 0
-Spindle
-Text GLabel 8050 2400 2    50   Input ~ 0
-Mist
-Text GLabel 8050 2500 2    50   Input ~ 0
-Flood
-Wire Wire Line
-	7450 1400 8050 1400
-Wire Wire Line
-	7450 1500 8050 1500
-Wire Wire Line
-	7450 1600 8050 1600
-Wire Wire Line
-	7450 1700 8050 1700
-Wire Wire Line
-	7450 1900 8050 1900
-Wire Wire Line
-	7450 2000 8050 2000
-Wire Wire Line
-	7450 2100 8050 2100
-Wire Wire Line
-	7450 2300 8050 2300
-Wire Wire Line
-	7450 2400 8050 2400
-Wire Wire Line
-	7450 2500 8050 2500
-$Comp
-L power:+5V #PWR0126
-U 1 1 5BFF6CCC
-P 8600 1650
-AR Path="/5BFF1764/5BFF6CCC" Ref="#PWR0126"  Part="1" 
-AR Path="/5C064586/5BFF6CCC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0126" H 8600 1500 50  0001 C CNN
-F 1 "+5V" H 8615 1823 50  0000 C CNN
-F 2 "" H 8600 1650 50  0000 C CNN
-F 3 "" H 8600 1650 50  0000 C CNN
-	1    8600 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 1800 8600 1800
-Wire Wire Line
-	8600 1800 8600 1650
-Wire Wire Line
-	7450 2200 8600 2200
-Wire Wire Line
-	8600 2200 8600 1800
-Connection ~ 8600 1800
+	6250 7250 6400 7250
 $Comp
 L Connector_Generic:Conn_01x05 J8
 U 1 1 5BFF8AAE
@@ -7143,4 +6998,132 @@ $EndComp
 Wire Wire Line
 	9900 3100 9900 3350
 Connection ~ 9900 3100
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C06FF5E
+P 7050 2750
+AR Path="/5BFF1764/5C06FF5E" Ref="J?"  Part="1" 
+AR Path="/5C064586/5C06FF5E" Ref="J?"  Part="1" 
+F 0 "J?" H 7130 2742 50  0000 L CNN
+F 1 "Mist" H 7130 2651 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 7050 2750 50  0001 C CNN
+F 3 "~" H 7050 2750 50  0001 C CNN
+	1    7050 2750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7550 2750 2    50   Input ~ 0
+Mist
+Wire Wire Line
+	7250 2750 7550 2750
+Wire Wire Line
+	7250 2850 7400 2850
+Wire Wire Line
+	7400 2850 7400 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5C0719A4
+P 7400 3150
+F 0 "#PWR?" H 7400 2900 50  0001 C CNN
+F 1 "GND" H 7450 2950 50  0000 C CNN
+F 2 "" H 7400 3150 50  0001 C CNN
+F 3 "" H 7400 3150 50  0001 C CNN
+	1    7400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C071CEA
+P 7050 3600
+AR Path="/5BFF1764/5C071CEA" Ref="J?"  Part="1" 
+AR Path="/5C064586/5C071CEA" Ref="J?"  Part="1" 
+F 0 "J?" H 7130 3592 50  0000 L CNN
+F 1 "Mist" H 7130 3501 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 7050 3600 50  0001 C CNN
+F 3 "~" H 7050 3600 50  0001 C CNN
+	1    7050 3600
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7550 3600 2    50   Input ~ 0
+Flood
+Wire Wire Line
+	7250 3600 7550 3600
+Wire Wire Line
+	7250 3700 7400 3700
+Wire Wire Line
+	7400 3700 7400 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5C071CF4
+P 7400 4000
+F 0 "#PWR?" H 7400 3750 50  0001 C CNN
+F 1 "GND" H 7450 3800 50  0000 C CNN
+F 2 "" H 7400 4000 50  0001 C CNN
+F 3 "" H 7400 4000 50  0001 C CNN
+	1    7400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C074870
+P 5750 3500
+AR Path="/5BFF1764/5C074870" Ref="J?"  Part="1" 
+AR Path="/5C064586/5C074870" Ref="J?"  Part="1" 
+F 0 "J?" H 5830 3492 50  0000 L CNN
+F 1 "Mist" H 5830 3401 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 5750 3500 50  0001 C CNN
+F 3 "~" H 5750 3500 50  0001 C CNN
+	1    5750 3500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6250 3500 2    50   Input ~ 0
+A6
+Wire Wire Line
+	5950 3500 6250 3500
+Wire Wire Line
+	5950 3600 6100 3600
+Wire Wire Line
+	6100 3600 6100 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5C07487A
+P 6100 3900
+F 0 "#PWR?" H 6100 3650 50  0001 C CNN
+F 1 "GND" H 6150 3700 50  0000 C CNN
+F 2 "" H 6100 3900 50  0001 C CNN
+F 3 "" H 6100 3900 50  0001 C CNN
+	1    6100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C076A4A
+P 5750 2700
+AR Path="/5BFF1764/5C076A4A" Ref="J?"  Part="1" 
+AR Path="/5C064586/5C076A4A" Ref="J?"  Part="1" 
+F 0 "J?" H 5830 2692 50  0000 L CNN
+F 1 "Mist" H 5830 2601 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 5750 2700 50  0001 C CNN
+F 3 "~" H 5750 2700 50  0001 C CNN
+	1    5750 2700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6250 2700 2    50   Input ~ 0
+A7
+Wire Wire Line
+	5950 2700 6250 2700
+Wire Wire Line
+	5950 2800 6100 2800
+Wire Wire Line
+	6100 2800 6100 3100
+$Comp
+L power:GND #PWR?
+U 1 1 5C076A54
+P 6100 3100
+F 0 "#PWR?" H 6100 2850 50  0001 C CNN
+F 1 "GND" H 6150 2900 50  0000 C CNN
+F 2 "" H 6100 3100 50  0001 C CNN
+F 3 "" H 6100 3100 50  0001 C CNN
+	1    6100 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
