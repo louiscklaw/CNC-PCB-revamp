@@ -134,7 +134,7 @@ U 1 1 5C020F9B
 P 5850 3600
 F 0 "U1" H 5850 4515 50  0000 C CNN
 F 1 "arduino_nano_v3" H 5850 4424 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 5750 2400 50  0001 C CNN
+F 2 "footprint-lib:Arduino_Nano" H 5750 2400 50  0001 C CNN
 F 3 "" H 5850 3600 50  0001 C CNN
 	1    5850 3600
 	1    0    0    -1  

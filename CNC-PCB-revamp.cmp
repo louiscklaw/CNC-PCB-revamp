@@ -1,4 +1,20 @@
-Cmp-Mod V01 Created by PcbNew   date = Tuesday, November 27, 2018 AM12:00:16 HKT
+Cmp-Mod V01 Created by PcbNew   date = Tuesday, December 04, 2018 PM11:30:07 HKT
+
+BeginCmp
+TimeStamp = 5C5C926F
+Path = /5BFEAB84/5C020F9B
+Reference = U1;
+ValeurCmp = arduino_nano_v3;
+IdModule  = footprint-lib:Arduino_Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C753A28
+Path = /5BFEA9D7/5C0226DB
+Reference = J1;
+ValeurCmp = Conn_RPi_02_20;
+IdModule  = footprint-lib:Conn_RPi_02_20;
+EndCmp
 
 BeginCmp
 TimeStamp = 5C5D2DDC
@@ -121,7 +137,7 @@ IdModule  = Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5C5C9326
+TimeStamp = 5C754B43
 Path = /5BFECFEE/5C00212A
 Reference = J3;
 ValeurCmp = Conn_02x03_Odd_Even;
@@ -137,38 +153,6 @@ IdModule  = Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5C5C92EE
-Path = /5BFF1764/5BFF4535
-Reference = J10;
-ValeurCmp = Conn_02x12_Odd_Even;
-IdModule  = Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C5C9776
-Path = /5BFEA9D7/5C0226DB
-Reference = J1;
-ValeurCmp = Conn_RPi_02_20;
-IdModule  = Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C5C99D8
-Path = /5BFEA9D7/5BFF0494
-Reference = D1;
-ValeurCmp = SD_1N5819_SS14;
-IdModule  = Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C5C926F
-Path = /5BFEAB84/5C020F9B
-Reference = U1;
-ValeurCmp = arduino_nano_v3;
-IdModule  = Module:Arduino_Nano;
-EndCmp
-
-BeginCmp
 TimeStamp = 5C5C9232
 Path = /5BFECFEE/5C025651
 Reference = U2;
@@ -177,7 +161,7 @@ IdModule  = Module:Pololu_Breakout-16_15.2x20.3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 5C5C920A
+TimeStamp = 5C754A8F
 Path = /5BFECFEE/5C02571C
 Reference = U3;
 ValeurCmp = A4988_MODULE;
@@ -225,23 +209,7 @@ IdModule  = MountingHole:MountingHole_2.7mm_M2.5_Pad;
 EndCmp
 
 BeginCmp
-TimeStamp = 5C5C919A
-Path = /5BFEA9D7/5C0117DA
-Reference = R1;
-ValeurCmp = R102,0603;
-IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C5C9189
-Path = /5BFEA9D7/5BFF0B07
-Reference = R2;
-ValeurCmp = R202,0603;
-IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C5C9178
+TimeStamp = 5C754AFB
 Path = /5BFECFEE/5C00216B
 Reference = C2;
 ValeurCmp = CP47uf,35V;

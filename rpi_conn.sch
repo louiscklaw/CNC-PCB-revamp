@@ -139,7 +139,7 @@ U 1 1 5C0226DB
 P 6100 3350
 F 0 "J1" H 6050 4615 50  0000 C CNN
 F 1 "Conn_RPi_02_20" H 6050 4524 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 6100 2400 50  0001 C CNN
+F 2 "footprint-lib:Conn_RPi_02_20" H 6100 2400 50  0001 C CNN
 F 3 "" H 6100 2400 50  0001 C CNN
 	1    6100 3350
 	1    0    0    -1  
