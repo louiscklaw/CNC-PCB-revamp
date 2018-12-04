@@ -104,13 +104,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J5
 U 1 1 5C0008F6
-P 7750 1650
-F 0 "J5" H 7830 1642 50  0000 L CNN
-F 1 "Conn_01x04" H 7830 1551 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 7750 1650 50  0001 C CNN
-F 3 "~" H 7750 1650 50  0001 C CNN
-	1    7750 1650
-	1    0    0    -1  
+P 7750 1750
+F 0 "J5" H 7830 1742 50  0000 L CNN
+F 1 "Conn_01x04" H 7830 1651 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 7750 1750 50  0001 C CNN
+F 3 "~" H 7750 1750 50  0001 C CNN
+	1    7750 1750
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6500 1550 7550 1550
@@ -257,13 +257,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 5C002156
-P 7750 3600
-F 0 "J6" H 7830 3592 50  0000 L CNN
-F 1 "Conn_01x04" H 7830 3501 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 7750 3600 50  0001 C CNN
-F 3 "~" H 7750 3600 50  0001 C CNN
-	1    7750 3600
-	1    0    0    -1  
+P 7750 3700
+F 0 "J6" H 7830 3692 50  0000 L CNN
+F 1 "Conn_01x04" H 7830 3601 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 7750 3700 50  0001 C CNN
+F 3 "~" H 7750 3700 50  0001 C CNN
+	1    7750 3700
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6500 3500 7550 3500
@@ -413,13 +413,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J7
 U 1 1 5C004096
-P 7750 5450
-F 0 "J7" H 7830 5442 50  0000 L CNN
-F 1 "Conn_01x04" H 7830 5351 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 7750 5450 50  0001 C CNN
-F 3 "~" H 7750 5450 50  0001 C CNN
-	1    7750 5450
-	1    0    0    -1  
+P 7750 5550
+F 0 "J7" H 7830 5542 50  0000 L CNN
+F 1 "Conn_01x04" H 7830 5451 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 7750 5550 50  0001 C CNN
+F 3 "~" H 7750 5550 50  0001 C CNN
+	1    7750 5550
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6500 5350 7550 5350
