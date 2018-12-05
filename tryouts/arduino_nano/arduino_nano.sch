@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:arduino_nano-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -66,10 +67,10 @@ Wire Wire Line
 Wire Wire Line
 	4500 4350 5050 4350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5BFF107B
 P 4000 3400
-F 0 "#PWR?" H 4000 3150 50  0001 C CNN
+F 0 "#PWR0101" H 4000 3150 50  0001 C CNN
 F 1 "GND" H 4005 3227 50  0000 C CNN
 F 2 "" H 4000 3400 50  0001 C CNN
 F 3 "" H 4000 3400 50  0001 C CNN
@@ -97,10 +98,10 @@ Hold
 Text GLabel 7350 4050 2    50   Input ~ 0
 Grbl_Reset
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 5BFF1342
 P 7350 2900
-F 0 "#PWR?" H 7350 2750 50  0001 C CNN
+F 0 "#PWR0102" H 7350 2750 50  0001 C CNN
 F 1 "+5V" H 7365 3073 50  0000 C CNN
 F 2 "" H 7350 2900 50  0000 C CNN
 F 3 "" H 7350 2900 50  0000 C CNN
@@ -128,10 +129,10 @@ Wire Wire Line
 Wire Wire Line
 	6650 4050 7350 4050
 $Comp
-L taobao-components:arduino_nano_v3 U?
+L taobao-components:arduino_nano_v3 U1
 U 1 1 5C020F9B
 P 5850 3600
-F 0 "U?" H 5850 4515 50  0000 C CNN
+F 0 "U1" H 5850 4515 50  0000 C CNN
 F 1 "arduino_nano_v3" H 5850 4424 50  0000 C CNN
 F 2 "footprint-lib:Arduino_Nano" H 5750 2400 50  0001 C CNN
 F 3 "" H 5850 3600 50  0001 C CNN
